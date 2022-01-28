@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+	@apply px-5 py-2 rounded;
+}
+
+.btn-success {
+	@apply bg-green-500;
+}
+
+.btn-success:hover {
+	@apply bg-green-600;
+}
+
+.btn-danger {
+	@apply bg-red-600;
+}
+
+.btn-danger:hover {
+	@apply bg-red-700;
+}
